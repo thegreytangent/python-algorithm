@@ -7,7 +7,7 @@ def binary_search(a_list, n):
         mid = (first + last)
         
         if a_list[mid] == n:
-            return True
+                return True
         else:
             if n < a_list[mid]:
                 last = mid - 1
